@@ -1,0 +1,167 @@
+@media screen and (max-width:1120px) {
+
+    .container{
+        max-width:100%;
+        margin-block: auto;
+        padding-inline: 30px;
+    }
+  
+
+
+}
+
+@media screen and (max-width:974px){
+
+    .nav-links ul {
+        gap: 20px;
+    }
+
+    .feature-section{
+        padding-inline: 30px;
+    }
+
+}
+
+@media screen and (max-width:910px){
+          
+    .h3{
+        font-size: 1.3rem;
+    }
+    .nav-toggle{
+        display: block;
+        margin-inline: 20px;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block:20px ;
+        transition: 0.2sec ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .example-card{
+        width: 45%;
+        height: 250px;
+    }
+
+    .examples-area{
+        gap: 20px;
+    }
+
+    .cta-section-container{
+        padding-block: 50px;
+    }
+
+
+}
+   
+@media screen and (max-width:767px){
+    
+    .header{
+        width: 100%;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+
+    .feature-description h3{
+        margin-block: 10px;
+    }
+
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature-card{
+        max-width:40%;
+        gap: 30px;
+       
+    }
+    
+    .big-feature-container, #second-big-feature{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-img img{
+        width: 80%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link-coloumn{
+        align-items: center;
+        margin-block: 10px
+    }
+    
+    .subfooter{
+        margin-block: 10px;
+        padding-inline: 10px;
+    }
+
+    /* .subfooter-container{
+
+    } */
+
+}
+
+@media screen and (max-width:479px){
+
+    :root{
+        --padding-inline-section: 20px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    .feature-card{
+        min-width:100%;
+        gap: 0px;
+    }
+    .feature-img img{
+           width: 100%;
+           
+        }
+    .example-card{
+        width: 100%;
+    }
+
+    .cta-section-container p{
+        text-align: center;
+    }
+}
